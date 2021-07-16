@@ -1,0 +1,8 @@
+<!--pages/page2.wxml-->
+
+<view id="page-box">
+  <view>
+    <image src="{{ audio[id].imageUrl }}"></image>
+  </view>
+  <text>{{ audio[id].name }}</text>
+</view>

@@ -1,0 +1,108 @@
+#app {
+  width: 100%;
+  height: 100%;
+  /* background-color: blanchedalmond; */
+}
+audio {
+  position: absolute;
+  opacity: 0;  
+}
+#header {
+  background-color: rgb(241, 241, 241);
+}
+#header swiper {
+  width: 100%;
+  padding: 10px;
+  height: 170px;
+  box-sizing: border-box;
+}
+#header swiper swiper-item {
+  overflow: hidden;
+  border-radius: 15px;
+}
+#main {
+  /* background-color: chocolate; */
+  text-align: center;
+  border-bottom: 1px solid #ebebeb;
+  padding-bottom: 10px;
+}
+#main view{
+  display: inline-block;
+  font-size: 12px;
+  color: #8d8d8d;
+}
+#main view image {
+  box-sizing: border-box;
+  display:  block;
+  line-height: 40px;
+  width: 40px;
+  height: 40px;
+  margin: 10px;
+  padding: 0px;
+  background-color: rgb(230, 228, 228);
+  border-radius: 50%;
+  padding: 6px;
+}
+#recommend {
+  margin: 10px 10px;
+}
+#footer {
+  text-align: center;
+  margin-bottom: 110px;
+}
+#footer {
+  /* display: inline-flex; */
+}
+#footer view {
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  margin: 0px 3px 30px 3px;
+  border-radius: 10px;
+  font-size: 12px;
+  color: #8d8d8d;
+  /* background-color: rgb(230, 228, 228); */
+  box-shadow: 0px 0px 10px 0px #dddddd;
+}
+#footer view image {
+  border-radius: 10px;
+}
+
+image {
+  /* border-radius: 15px; */
+  width: 100%;
+  height: 100%;
+}
+#PlayMusic {
+  position: fixed;
+  width: 100%;
+  display: inline-flex;
+  background-color: #ffffff;
+  box-shadow: 0px 0px 5px 0px #9b9a9a;
+  box-sizing: border-box;
+  z-index: 100;
+  bottom: 0px;
+  line-height: 50px;
+}
+#PlayMusic navigator {
+  width: 50px;
+  height: 50px;
+}
+
+#PlayMusic text {
+  margin-left: 25px;
+}
+#PlayMusic button {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  right: 0;
+  margin: 0;
+  padding: 0;
+}
+#PlayMusic button image {
+  width: 50px;
+  height: 50px;
+  padding: 15px;
+  box-sizing: border-box;
+}

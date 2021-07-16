@@ -1,0 +1,31 @@
+<view id="app">
+  <audio id="audio" src="{{src}}" id="myAudio" ></audio>
+    <view id="PlayMusic">
+      <navigator url="{{ pageUrl }}">
+        <image src="{{ imageUrl }}"></image>
+      </navigator>
+      <text>{{ name }}</text>
+      <button bindtap="stopMusic"><image src="{{ buttonImage }}"></image></button>
+    </view>
+      <view id="header">
+        <swiper>
+          <swiper-item><image src="../../images/A.jpeg"></image></swiper-item>
+          <swiper-item><image src="../../images/B.jpeg"></image></swiper-item>
+          <swiper-item><image src="../../images/C.jpeg"></image></swiper-item>
+        </swiper>
+      </view>
+      <view id="main">
+        <view><image src="../../images/BA.png"></image> 推荐</view>
+        <view><image src="../../images/BB.png"></image> FM</view>
+        <view><image src="../../images/BC.png"></image> 歌单</view>
+        <view><image src="../../images/BD.png"></image> 直播</view>
+        <view><image src="../../images/DE.png"></image> 专辑</view>
+      </view>
+      <view id="recommend">推荐歌单</view>
+      <view id="footer">
+          <view wx:for="{{audio}}" wx:for-item="item" data-index="{{item}}" bindtap="onclick">
+              <image src="{{ item.imageUrl }}"></image>
+              {{ item.name }}
+          </view>
+      </view>
+</view>
